@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+  background-color: #282c34;
+  color: #61dafb;
+  display:flex;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+#root, .App {
+  width:100%;
+}
+
+h1 {
+  margin-bottom:100px;
+}
+
+#eight-ball {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-content: flex-start;
+  color: white;
+  background-color: black;
+  box-shadow: 15px 15px #272b33;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#reply-container {
+  margin-top: 107px;
+  height: 111px;
+  width: 120px;
+  text-align: center;
+  z-index: 999;
+}
+
+#reply-triangle {
+  width: 0;
+  height:0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 200px solid gray;
+  position: absolute;
+  padding-top: 20px;
+}
+
+button {
+  margin-bottom:100px;
+}
+
+.pos {
+  border-bottom: 200px solid green !important;
+}
+
+.neg {
+  border-bottom: 200px solid maroon !important;
+}
+
+.neutral {
+  border-bottom: 200px solid goldenrod !important;
+}
+
+/* boxes */
+
+#box-container {
+  height:auto;
+  width:50%;
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.box {
+  height:200px;
+  width:200px;
+}
